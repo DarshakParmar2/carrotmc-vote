@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function() {
         openVoteLink('https://minecraftservers.org/server/659341');
     });
     document.getElementById("vote2").addEventListener("click", function() {
-        openVoteLink('https://example.com/link2');
+        openVoteLink('https://bestmcservers.org/server-carrot-mc.3233/vote');
     });
     document.getElementById("vote3").addEventListener("click", function() {
-        openVoteLink('https://example.com/link3');
+        openVoteLink('https://minecraft-mp.com/server-s328885');
     });
     document.getElementById("vote4").addEventListener("click", function() {
-        openVoteLink('https://example.com/link4');
+        openVoteLink('https://topminecraftservers.org/server/36625');
     });
     document.getElementById("vote5").addEventListener("click", function() {
         openVoteLink('https://example.com/link5');
