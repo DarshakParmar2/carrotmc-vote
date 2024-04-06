@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('.//vote.ttf') format('truetype');
+    /* You can add additional font formats for cross-browser compatibility */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 200px;
+}
+
+.carrotmc-logo:hover {
+    transform: scale(1.1); /* Scale up the logo on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.vote-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vote-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'CustomFont', Arial, sans-serif; /* Use CustomFont as the primary font */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.vote-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Loader styles */
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure loader appears on top of other content */
+}
+
+/* Loader animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.carrotmc-logo {
+    max-width: 200px;
+    animation: moveUpDown 2s ease-in-out infinite alternate; /* Apply animation */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    100% {
+        transform: translateY(-20px); /* End position */
+    }
+}
