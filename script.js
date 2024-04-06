@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         openVoteLink('https://mc-server-list.com/server/1669-carrotmc/');
     });
     document.getElementById("vote7").addEventListener("click", function() {
-        openVoteLink('https://minecraftservers.org/server/659341');
+        openVoteLink('https://bestmcservers.org/server-carrot-mc.3233/vote');
     });
 });
 
